@@ -1,0 +1,76 @@
+int ledPin = 11;
+int ledPin1 = 10;
+int ledPin2 = 13;
+int switchPin = 12;
+int switchPin1 = 8;
+int switchPin2 = 9;
+
+int count = 0;
+
+boolean buttion = false;
+boolean buttion1 = false;
+boolean buttion2 = false;
+
+int states1 = 0;
+int states2 = 0;
+int states3 = 0;
+
+void setup() {
+  // put your setup code here, to run once:
+  pinMode(ledPin, OUTPUT);
+  pinMode(ledPin1, OUTPUT);
+  pinMode(ledPin2, OUTPUT);
+  pinMode(switchPin, INPUT);
+  pinMode(switchPin1, INPUT);
+  pinMode(switchPin2, INPUT);
+  Serial.begin(9600);
+}
+
+void loop() {
+	
+  states1 = digitalRead(switchPin);
+  states2 = digitalRead(switchPin1);
+  states3 = digitalRead(switchPin2);
+  
+  Serial.println(states1);
+  Serial.println(states2);
+  Serial.println(states3);
+  
+  if(states1 == 1){
+    buttion = true;
+  }
+  if(states1 == 0 && buttion == true){
+    buttion = false;
+    count = 1;
+  }
+  if(states2 == 1){
+    buttion1 = true;
+  }
+  if(states2 == 0 && buttion2 == true){
+    buttion1 = false;
+    count = 2;
+  }
+  if(states3 == 1){
+    buttion2 = true;
+  }
+  if(states3 == 0 && buttion2 == true){
+    buttion2 = false;
+    count = 3;
+  }
+  
+  if(count == 1){
+    digitalWrite(ledPin, HIGH);
+    digitalWrite(ledPin1, LOW);
+    digitalWrite(ledPin2, LOW);
+  }else if(count == 2){
+    digitalWrite(ledPin, LOW);
+    digitalWrite(ledPin1, HIGH);
+    digitalWrite(ledPin2, LOW);
+  }else if(count == 3){
+    digitalWrite(ledPin, LOW);
+    digitalWrite(ledPin1, LOW);
+    digitalWrite(ledPin2, HIGH);
+  }
+    
+    
+}
