@@ -31,3 +31,7 @@ when and where will it be used?
   medicine, with its size now, it can be used at home, hospital, and rehab, when you or someone else is suffering from
   muscle atrophy, or when you want to trick some of your kids into having fun.
   
+how does it work?
+
+  on a simplic level, you turn the crank (clockwise), the crank charges a compasator, when that compasator is full, the arduino reads
+  it and tells you how long it took the charge it.  
