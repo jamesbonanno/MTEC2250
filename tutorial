@@ -1,0 +1,53 @@
+in this tutorial, ill be talking about the LM35 temperature sensor, how it's work, used, setup, the progarming it with arduino, and 
+the possible problems they may happen.
+
+what does the LM35 temperature sensor do, and can do;
+
+the LM35 temperature sensor detects the temperature of the area around it, it could operate between -55C - 150C,
+and its output voltage is proportional to the celsius temperature. Examples, of what it would do and be uses for; detect the temperature of
+a nearby heat sink so if it gets too hot it can turn the circuit off and protect any heat senitive compontent. This is important
+for circuits like a motherboard (that will have parts on it that crate heat), circuits in close tight areas, that does not have 
+good air flow to keep it cool, and areas that you want to know what the temperature is.
+
+LM35  setup for ardiuno;
+
+the LM35 temperature sensor setup is simple, it has 3 pins 1st pin is positive, 2nd is the output, and 3rd is the ground,(assming that 
+you are looking at it from the flat side, if not swap the 1st and 3rd pin and it will be no diffent). to set this up for the ardiuno
+if you know how to plug in an LED, then you know were the 1st and 3rd pin go, the 2nd, middle pin, goes into the analong pins one of your
+choice (ill use A1),
+
+LM35 code for ardiuno;
+
+int val;
+int tempPin = 1;
+
+void setup()
+{
+Serial.begin(9600);
+}
+void loop()
+{
+val = analogRead(tempPin);
+float mv = ( val/1024.0)*5000; 
+float cel = mv/10;
+float farh = (cel*9)/5 + 32;
+
+Serial.print("TEMPRATURE = ");
+Serial.print(cel);
+Serial.print("*C");
+Serial.println();
+delay(1000);
+
+/* uncomment this to get temperature in farenhite 
+Serial.print("TEMPRATURE = ");
+Serial.print(farh);
+Serial.print("*F");
+Serial.println();
+
+
+*/
+}
+
+possible problems;
+
+mostly the placement of it, if you want to detect something pacific i.e. heat sink, then it must be near it to read said heat sink.
