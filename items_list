@@ -1,0 +1,16 @@
+list of component;
+
+resistor list
+---------------------
+1x 100k
+1x 330k
+2x 220k
+---------------------
+
+1x capacitor( you can use any you wish, it will shorten, or lengthen the time it takes to charge it)
+
+1x DC motor
+
+4x diode or 1x bridge rectifier
+
+1x arduino (i used arduino uno)
