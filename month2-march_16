@@ -1,0 +1,15 @@
+mar/16
+
+at this time everyone was working on their  models as well as i, but i was mostly working on the proportions
+mostly because i make it off scale the 1st time, when it came to 3D printing guess what happen? (see 1st try).
+i rescaled it and it came out great, (see 2nd try), and with that i can start working on the code and circuitry.
+
+the issue that came up alot was how can the arduino read the voltage that comes off the motor, without damaging it,
+so with some help i learned about something called a bridge rectifier, which turns negative voltage into postive voltage,
+now came another problem how can i have the arduino read the voltage without setting itself on fire, so i thought
+send the power into a compacitor and have the arduino read the voltage inside it.
+
+i did some research and found so code one how an arduino can read a compacitor (), 
+i copied the code and modified the circuitry to see if it works with the motor instead of it getting charged off the arduino, 
+it did somewhat work but issues happen mostly that i had little contorl over the compacitor were sometimes the arduino would not
+read it at all this issue lasted for weeks and that issue is a mystery to still.
