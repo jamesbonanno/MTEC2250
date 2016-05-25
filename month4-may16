@@ -1,7 +1,7 @@
 may/16
 
-the last month for the project, i spliced to 2 codes together, and circuitry together (see splice circuitry), with that 
-i began working with the code to have it work the way i want it, problems happen but it does work to an extent, to explain
+the last month for the project, i spliced to 2 codes together, and circuitry together (see 2nd circuitry and splice circuitry), 
+with that i began working with the code to have it work the way i want it, problems happen but it does work to an extent, to explain
 it simply, the motor turns on the analong pin (A1) and that powers the compacitor, but i have no contorl over the amount of
 voltage the arduino outputs so it works but the time it take to charge the compacitor will always be the same, and thats
 not what i wanted but their is only 2 weeks left all i have left is to fix as much as i can 
