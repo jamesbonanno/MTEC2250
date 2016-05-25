@@ -7,4 +7,8 @@ one print so i can have them all in one place, the 1st one took 4 hours to print
 know why that happened but it did, it was i nice model for know but then. most of april was modeling and 3D printing
 for me because of assignments that everyone had during class.
 
- 
+at the end of the month the professor found code for arduino, for it to work as a voltmeter (see code p2), and with that 
+i used to find how much volts the motor gives off and use that data to charge the compacitor. but a problem started to show up
+how do i combine both circuits together? so to fix that i followed both circuits removed what was not needed, and it does work,
+it was not as hard as i thought.
+
