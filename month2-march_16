@@ -10,7 +10,7 @@ so with some help i learned about something called a bridge rectifier, which tur
 now came another problem how can i have the arduino read the voltage without setting itself on fire, so i thought
 send the power into a compacitor and have the arduino read the voltage inside it.
 
-i did some research and found so code one how an arduino can read a compacitor (), 
+i did some research and found so code one how an arduino can read a compacitor (see code and circuitry), 
 i copied the code and modified the circuitry to see if it works with the motor instead of it getting charged off the arduino, 
 it did somewhat work but issues happen mostly that i had little contorl over the compacitor were sometimes the arduino would not
 read it at all this issue lasted for weeks and that issue is a mystery to still.
