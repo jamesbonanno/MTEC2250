@@ -1,6 +1,14 @@
 
 how to work it
 
+step 1: user cranks the motor (output)
+
+step 2: arduino reads the motor (input)
+
+step 3: arduino turns on leds based on the input of the user (output)
+
+summary
+
 user crank up the arduino, then the arduino measure the input of the user
 with that the ardiuno then turns on leds that light up when the person hit
 a milestone, the longer they do it the more leds light up
