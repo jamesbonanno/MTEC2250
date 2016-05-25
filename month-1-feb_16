@@ -10,7 +10,6 @@ who needs a battery and forget to charge it as well as a way to recharge dead ba
 it needed work and some more thought.
 
 then was concept art, i decided to try again with the hand crank generator, and see what i can do with it, so i was thinking
-like a test you strength game that you see at carnivals (see links drawen and model concept). With that in mind turn from hand
-crank generator to stanima tester, and the concept became more and more clear.
-
+like a test you strength game that you see at carnivals (see links drawen and model concept). So with that in mind i was thinking
+of the user charging up a battery and with that the arduino read it and turn on a row of LED in a parellel curcuit.
 
