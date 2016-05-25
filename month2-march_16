@@ -4,6 +4,7 @@ at this time everyone was working on their  models as well as i, but i was mostl
 mostly because i make it off scale the 1st time, when it came to 3D printing guess what happen? (see 1st try).
 i rescaled it and it came out great, (see 2nd try), and with that i can start working on the code and circuitry.
 
+With that in mind turn from that carnaval idea into stanima tester, and the concept became more and more clear.
 the issue that came up alot was how can the arduino read the voltage that comes off the motor, without damaging it,
 so with some help i learned about something called a bridge rectifier, which turns negative voltage into postive voltage,
 now came another problem how can i have the arduino read the voltage without setting itself on fire, so i thought
