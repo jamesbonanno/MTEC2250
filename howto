@@ -1,0 +1,6 @@
+
+how to work it
+
+user crank up the arduino, then the arduino measure the input of the user
+with that the ardiuno then turns on leds that light up when the person hit
+a milestone, the longer they do it the more leds light up
