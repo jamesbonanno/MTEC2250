@@ -1,0 +1,129 @@
+
+1.who is this for?
+  
+  1: age, demographic
+    
+    1. 13-25, urban
+    2. 13-15, suburbs
+    3. 50-80, suburbs
+  
+  2. whats it for?
+  
+    1. health, toy, tool
+    
+      1. this device will help people suffering from muscle antorpy, with it 
+         because people sould not suffer more out of doing nothing for a few
+         weeks, as a toy you can use this with kids just to have some fun
+         kids will do anything to be better then another sibling or friend.
+         it can be used as a tool for rehab to objectivly tell if someone is 
+         getting better or worst, that info can be useful for doctors and 
+         make those suffering see that they are making progress.
+    
+  3. when will it be used
+    
+    1. time,place,locations
+    
+      1. in urban homes and rehab centers were the data can be stored on 
+         an SD card so that it can be saved, and use the check a persons
+         progress, if they are getting better or worst.
+         
+      2. in homes minor cases of muscle antorpy, end with a person being
+         bedridden, but most people hate that, so this could help them
+         from it weaking your muscles and sending you to rehab. it would
+         have an LCD screen to tell to how you are doing and be more compacted.
+         
+      3. in homes for kids as a toy, medium in size kids like big and 
+         colorful with buzzers for sound, something that makes them 
+         feel like they are getting a reward for just playing.
+         
+    2. affections by time/place
+    
+      1. it made of plasic and the part will be solder together so if it does
+         fall it should not get damaged
+         
+        1. materials
+        
+            resistor list
+            ---------------------
+            1.1x 100k
+            2.1x 330k
+            3.2x 220k
+            ---------------------
+
+            4.1x capacitor( you can use any you wish, it will shorten, or lengthen the time it takes to charge it)
+
+            5.1x DC motor
+
+            6.4x diode or 1x bridge rectifier
+
+            7.1x arduino (i used arduino uno) or nano
+            
+            8.2x buttons
+            
+            9.1x lcd screen
+            
+            10.1x buzzer
+            
+            11.5x LED's
+            
+            
+      2.urban
+      
+        1. heavy duty plastic 
+        2. lcd screen
+        3. arduino uno
+        4. 2 buttons
+        
+      3.suburbs
+      
+        1. heavy duty plastic
+        2. lcd screen
+        3. arduino nano
+        4. 2 buttons
+        
+      4.kids version
+      
+        1. heavy duty platic
+        2. lcd screen
+        3. 2x buzzer
+        4. 5x leds
+      
+    2. settings
+    
+      1. urban
+      
+        1. is not made for outside 
+        2. made to take falls people can have butterfingers
+      
+      2.suburbs
+      
+        1. made for both in/outside
+        2. be waterproof
+        3. smaller with a nano 
+      
+      3.kids version 
+      
+        1. made for in/outside
+        2. be waterproof
+        3. heavy duty platic 
+        4. light metal frame
+        5. colorful
+      
+      4.rehab version
+        
+        1.made for inside
+        2.lcd screen
+        3.data put onto an SD card
+        
+        
+    3. why does this need to exist
+    
+      1. people should not suffer more for just doing what to doctor saids
+         when they are dealing with muscle antropy, no one wants that
+         and no one needs too, it too painful to even think of going 
+         thew it, or even seeing a love one have it.
+      
+      2. my philosophy is they everything should be in some way fun or
+         enjoyable it makes life easier to live and distracts you from
+         things which is why i would make a version for kids so they can
+         have some fun, with it as well as work out instead of doing nothing.
